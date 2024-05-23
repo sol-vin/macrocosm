@@ -21,6 +21,8 @@ struct Counter
 
   def wait_until(total)
     until @count.get == total
+      puts "-#{@count.get}-"
+      sleep 1
       Fiber.yield
     end
   end
