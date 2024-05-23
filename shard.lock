@@ -1,0 +1,10 @@
+version: 2.0
+shards:
+  concur:
+    git: https://github.com/lbarasti/concur.git
+    version: 1.0.2+git.commit.fee0b7f51b2a778550f9bca5e9ed65ed0353cb6f
+
+  rate_limiter:
+    git: https://github.com/lbarasti/rate_limiter.git
+    version: 1.0.1
+
